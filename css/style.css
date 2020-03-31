@@ -53,7 +53,7 @@ body {
 
 @media screen and (max-width: 576px) {
   .navbar-nav {
-    height: 54vh;
+    height: 48vh;
   }
 }
 
@@ -63,7 +63,7 @@ body {
   }
   .nav-link {
     font-size: 20px;
-    padding: 10px 30px;
+    margin: 10px 30px 0 30px;
     text-align: center;
   }
   .social-icons {
