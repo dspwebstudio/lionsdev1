@@ -1,0 +1,124 @@
+/* VARIABLES */
+    
+/* general */
+$text-theme: #0d47a1
+// $color-theme: #0d47a1
+$color-theme: #203B80
+$content-bg: #ccc
+
+/* navbar */ 
+$background-navbar-logo: #ccc
+
+
+*
+    margin: 0
+    padding: 0
+body 
+    background-color: gray-dark
+
+.max-width 
+    max-width: 1200px
+    margin: auto
+
+.color-theme
+    background-color: $color-theme
+.text-theme
+    color: $text-theme !important
+
+.content-bg
+    background-color: $content-bg
+.content hr 
+    width: 250px
+    height: 3px
+    background-color: $color-theme
+    margin: 0 auto 10px 0
+
+/* navbar */
+.active
+    border-bottom: 2px solid #ffffff
+.nav-link
+    font-size: 20px
+    padding: 10px
+    text-align: center
+    width: 200px
+    margin: 20px auto
+.bg-logo
+    background-color: $background-navbar-logo
+@media screen and (max-width: 576px)
+    .navbar-nav
+        height: 54vh
+@media screen and (min-width: 576px)
+    .navbar
+        padding: 0
+    .nav-link
+        font-size: 20px
+        padding: 10px 30px
+        text-align: center
+    .social-icons
+        padding: 50px 0
+
+/* footer */
+footer hr 
+    background-color: #fff
+    height: 1px
+.btn-theme
+    border-radius: 10px
+    margin-top: 20px
+.content
+    max-width: 700px
+
+.view, .view img
+    height: 50vh
+.view img
+    overflow: hidden 
+    object-fit: cover
+
+/* contacto */
+#message 
+    max-height: 20vh
+    min-height: 20vh
+
+    
+/* section */
+.section-wrapper
+    margin-top: 144px
+.section-title 
+    width: 100%
+    height: 40vh
+    display: flex
+    align-items: center
+    justify-content: center
+    h1 
+        color: #ffffff
+        font-size: 50px !important
+        // text-transform: uppercase
+        letter-spacing: .1em
+        font-weight: 400
+    hr 
+        height: 3px
+.section-content
+    padding: 5em
+    p 
+        text-align: justify
+
+/* ABOUT */ 
+.about
+    background: url('../img/imagenes/edificio.jpeg')
+    background-attachment: fixed
+    background-repeat: no-repeat
+    background-size: cover
+    background-position: center -144px
+    object-fit: cover
+
+/* CONTACT */
+.contact
+    background: url('../img/imagenes/contacto.jpeg')
+    background-attachment: fixed
+    background-repeat: no-repeat
+    background-size: cover
+    background-position: center -144px
+    object-fit: cover
+
+    .pregunta
+        font-size: 20px
+        font-weight: 400

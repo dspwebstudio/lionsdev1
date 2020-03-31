@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Material Design for Bootstrap</title>
+    <!-- MDB icon -->
+    <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+    <!-- Google Fonts Roboto -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Material Design Bootstrap -->
+    <link rel="stylesheet" href="css/mdb.min.css">
+    <!-- Your custom styles (optional) -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Encabezado -->
+    <header class="fixed-top">
+        <!-- Logo -->
+        <div class="logo bg-logo py-3 text-center">
+            <a class="navbar-brand" href="index.html">
+                <img src="img/logo/lionsdev-blue.png" alt="logo" width="180">
+            </a>
+        </div>
+        <!-- ./Logo -->
+
+        <!-- Navegador -->
+        <nav class="navbar navbar-expand-md navbar-dark color-theme">
+            <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse"
+                data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+                <ul class="navbar-nav m-auto mt-2 mt-lg-0 d-flex align-items-center justify-content-center">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Inicio<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="quienes-somos.html">Sobre Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="contacto.html">Contacto</a>
+                    </li>
+                    <li class="nav-item dropdown d-none">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownId">
+                            <a class="dropdown-item" href="#">Action 1</a>
+                            <a class="dropdown-item" href="#">Action 2</a>
+                        </div>
+                    </li>
+                </ul>
+
+                <!-- Social Icons -->
+                <div class="social-icons d-flex py-md-0 py-xs-4 px-5 align-items-center justify-content-between">
+                    <a href="#" class="text-white">
+                        <i class="fab fa-facebook-square fa-2x px-2"></i>
+                    </a>
+                    <a href="#" class="text-white">
+                        <i class="fab fa-linkedin fa-2x px-2"></i>
+                    </a>
+                    <a href="#" class="text-white">
+                        <i class="fab fa-youtube fa-2x px-2"></i>
+                    </a>
+                    <a href="#" class="text-white">
+                        <i class="fab fa-skype fa-2x px-2"></i>
+                    </a>
+                    <a href="#" class="text-white">
+                        <i class="fab fa-whatsapp fa-2x pl-2"></i>
+                    </a>
+                </div>
+                <!-- ./Social Icons -->
+
+                <form class="form-inline my-4 my-lg-0">
+                    <input class="form-control mr-sm-2" type="text" placeholder=" ">
+                    <button class="btn btn-outline-light rounded my-2 my-sm-0" type="submit">Buscar</button>
+                </form>
+            </div>
+        </nav>
+        <!-- ./Navegador -->
+
+    </header>
+    <!-- Encabezado -->
+
+    <!-- Contenido -->
+    <main class="section-wrapper">
+        <section class="contact">
+            <div class="mask flex-center rgba-indigo-light">
+                <div class="section-title">
+                    <div class="white-text p-5 text-justify">
+                        <h1 class="h1-responsive">Contacto</h1>
+                    </div>
+                </div>
+            </div>
+            <!-- Contenido -->
+            <div class="section-content content-bg lighten-5">
+                <div class="content-wrapper max-width">
+                    <!-- Contacto -->
+                    <div class="container-fluid">
+                        <!--Section: Contact v.2-->
+                        <div class="m-auto">
+
+                            <!--Section heading-->
+                            <!-- <h2 class="h1-responsive font-weight-bold text-center my-4 text-theme">Contacto</h2> -->
+                            <!--Section description-->
+                            <p class="pregunta text-justify w-responsive mx-auto mb-5 text-theme">¿Tiene usted alguna pregunta? Por favor no
+                                dude en
+                                contactar con nosotros
+                                directamente. Nuestro equipo volverá a usted dentro de cuestión de horas para ayudarlo.
+                            </p>
+
+                            <div class="row p-0">
+
+                                <!--Grid column-->
+                                <div class="col-md-9 mb-md-0 mb-5">
+                                    <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+                                        <!--Grid row-->
+                                        <div class="row">
+
+                                            <!--Grid column-->
+                                            <div class="col-md-6">
+                                                <div class="md-form mb-0">
+                                                    <input type="text" id="name" name="name" class="form-control">
+                                                    <label for="name" class="text-theme">Nombre</label>
+                                                </div>
+                                            </div>
+                                            <!--Grid column-->
+
+                                            <!--Grid column-->
+                                            <div class="col-md-6">
+                                                <div class="md-form mb-0">
+                                                    <input type="text" id="email" name="email" class="form-control">
+                                                    <label for="email" class="text-theme">email</label>
+                                                </div>
+                                            </div>
+                                            <!--Grid column-->
+
+                                        </div>
+                                        <!--Grid row-->
+
+                                        <!--Grid row-->
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <div class="md-form mb-0">
+                                                    <input type="text" id="subject" name="subject" class="form-control">
+                                                    <label for="subject" class="text-theme">Asunto</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--Grid row-->
+
+                                        <!--Grid row-->
+                                        <div class="row">
+
+                                            <!--Grid column-->
+                                            <div class="col-md-12">
+
+                                                <div class="md-form">
+                                                    <textarea type="text" id="message" name="message" rows="2"
+                                                        class="form-control md-textarea"></textarea>
+                                                    <label for="message" class="text-theme">Mensaje</label>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <!--Grid row-->
+
+                                    </form>
+
+                                    <div class="text-center text-md-left">
+                                        <a class="btn btn-theme color-theme z-depth-5"
+                                            onclick="document.getElementById('contact-form').submit();">Send</a>
+                                    </div>
+                                    <div class="status"></div>
+                                </div>
+                                <!--Grid column-->
+
+                                <!--Grid column-->
+                                <div class="col-md-3 text-center bg-light">
+                                    <ul class="list-unstyled mb-0">
+                                        <li><i class="fas fa-map-marker-alt fa-2x text-theme"></i>
+                                            <p>San Francisco, CA 94126, USA</p>
+                                        </li>
+
+                                        <li><i class="fas fa-phone mt-4 fa-2x text-theme"></i>
+                                            <p>+ 01 234 567 89</p>
+                                        </li>
+
+                                        <li><i class="fas fa-envelope mt-4 fa-2x text-theme"></i>
+                                            <p>contact@shop.com</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <!--Grid column-->
+
+                            </div>
+
+                        </div>
+                        <!--Section: Contact v.2-->
+                    </div>
+                    <!-- ./Contacto -->
+                </div>
+            </div>
+            <!-- ./Contenido -->
+
+            <!--Google map-->
+            <div id="map-container-google-1" class="map-container" style="height: 40vh;">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12610.52510214519!2d-122.4059758598319!3d37.798680131327636!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085806800ecb699%3A0xf91d657fb37e68fd!2sSan%20Francisco%2C%20California%2094126%2C%20EE.%20UU.!5e0!3m2!1ses-419!2smx!4v1585591882087!5m2!1ses-419!2smx"
+                    frameborder="0" allowfullscreen style="border:0; padding: 0; height: 40vh; width: 100%;">
+                </iframe>
+            </div>
+            <!-- ./Google map -->
+        </section>
+    </main>
+    <!-- Contenido -->
+
+    <!-- Footer -->
+    <footer class="page-footer font-small pt-4 color-theme">
+
+        <!-- Footer Links -->
+        <div class="container-fluid text-center text-md-left">
+
+            <!-- Grid row -->
+            <div class="row">
+
+                <!-- Grid column -->
+                <div class="col-md-6 mt-md-0 mt-3">
+
+                    <!-- Content -->
+                    <h5 class="text-uppercase">Footer Content</h5>
+                    <p>Here you can use rows and columns to organize your footer content.</p>
+
+                </div>
+                <!-- Grid column -->
+                <hr class="text-white">
+                <!-- Grid column -->
+                <div class="col-md-3 mb-md-0 mb-3">
+
+                    <!-- Links -->
+                    <h5 class="text-uppercase">Links</h5>
+
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#!">Link 1</a>
+                        </li>
+                        <li>
+                            <a href="#!">Link 2</a>
+                        </li>
+                        <li>
+                            <a href="#!">Link 3</a>
+                        </li>
+                        <li>
+                            <a href="#!">Link 4</a>
+                        </li>
+                    </ul>
+
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-3 mb-md-0 mb-3">
+
+                    <!-- Links -->
+                    <h5 class="text-uppercase">Links</h5>
+
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#!">Link 1</a>
+                        </li>
+                        <li>
+                            <a href="#!">Link 2</a>
+                        </li>
+                        <li>
+                            <a href="#!">Link 3</a>
+                        </li>
+                        <li>
+                            <a href="#!">Link 4</a>
+                        </li>
+                    </ul>
+
+                </div>
+                <!-- Grid column -->
+
+            </div>
+            <!-- Grid row -->
+
+        </div>
+        <!-- Footer Links -->
+
+
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">© 2020 Copyright:
+            <a href="index.html"> shop.com</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+
+    <!-- jQuery -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Your custom scripts (optional) -->
+    <script>
+        AOS.init();
+    </script>
+
+</body>
+
+</html>
