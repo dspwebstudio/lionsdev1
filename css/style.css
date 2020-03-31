@@ -147,7 +147,7 @@ footer hr {
 
 /* ABOUT */
 .about {
-  background: url("../img/imagenes/edificio.jpeg");
+  background: url("./img/imagenes/edificio.jpeg");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
@@ -158,7 +158,7 @@ footer hr {
 
 /* CONTACT */
 .contact {
-  background: url("../img/imagenes/contacto.jpeg");
+  background: url("./img/imagenes/contacto.jpeg");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
@@ -175,7 +175,7 @@ footer hr {
 
 /* BLOG */
 .blog {
-  background: url("../img/imagenes/blog.jpeg");
+  background: url("./img/imagenes/blog.jpeg");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
