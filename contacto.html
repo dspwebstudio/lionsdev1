@@ -34,7 +34,7 @@
         <!-- ./Logo -->
 
         <!-- Navegador -->
-        <nav class="navbar navbar-expand-md navbar-dark color-theme">
+        <nav class="navbar navbar-expand-md navbar-dark color-theme p-3">
             <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse"
                 data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -47,6 +47,9 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="quienes-somos.html">Quienes Somos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html">Blog</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link active" href="contacto.html">Contacto</a>
@@ -93,7 +96,7 @@
     <!-- Encabezado -->
 
     <!-- Contenido -->
-    <main>
+    <main class="section-wrapper">
         <section class="contact">
             <div class="mask rgba-indigo-light">
                 <div class="section-title">
@@ -104,16 +107,16 @@
             </div>
             <!-- Contenido -->
             <div class="section-content content-bg lighten-5 p-5">
-                <div class="content-wrapper max-width">
+                <div class="content-wrapper">
                     <!-- Contacto -->
                     <div class="container-fluid">
                         <!--Section: Contact v.2-->
-                        <div class="m-auto">
+                        <div class="m-auto p-0">
 
                             <!--Section heading-->
                             <!-- <h2 class="h1-responsive font-weight-bold text-center my-4 text-theme">Contacto</h2> -->
                             <!--Section description-->
-                            <p class="pregunta text-justify w-responsive mx-auto mb-5 text-theme">¿Tiene usted alguna pregunta? Por favor no
+                            <p class="pregunta text-justify w-responsive mx-auto mb-5 text-gray max-width">¿Tiene usted alguna pregunta? Por favor no
                                 dude en
                                 contactar con nosotros
                                 directamente. Nuestro equipo volverá a usted dentro de cuestión de horas para ayudarlo.
@@ -121,8 +124,8 @@
 
                             <div class="row p-0">
 
-                                <!--Grid column-->
-                                <div class="col-md-9 mb-md-0 mb-5">
+                                <!-- Forma de Contacto -->
+                                <div class="col-md-9 mb-md-0 mb-5 bg-light">
                                     <form id="contact-form" name="contact-form" action="mail.php" method="POST">
 
                                         <!--Grid row-->
@@ -132,7 +135,7 @@
                                             <div class="col-md-6">
                                                 <div class="md-form mb-0">
                                                     <input type="text" id="name" name="name" class="form-control">
-                                                    <label for="name" class="text-theme">Nombre</label>
+                                                    <label for="name">Nombre</label>
                                                 </div>
                                             </div>
                                             <!--Grid column-->
@@ -141,7 +144,7 @@
                                             <div class="col-md-6">
                                                 <div class="md-form mb-0">
                                                     <input type="text" id="email" name="email" class="form-control">
-                                                    <label for="email" class="text-theme">email</label>
+                                                    <label for="email">email</label>
                                                 </div>
                                             </div>
                                             <!--Grid column-->
@@ -154,7 +157,7 @@
                                             <div class="col-md-12">
                                                 <div class="md-form mb-0">
                                                     <input type="text" id="subject" name="subject" class="form-control">
-                                                    <label for="subject" class="text-theme">Asunto</label>
+                                                    <label for="subject">Asunto</label>
                                                 </div>
                                             </div>
                                         </div>
@@ -169,7 +172,7 @@
                                                 <div class="md-form">
                                                     <textarea type="text" id="message" name="message" rows="2"
                                                         class="form-control md-textarea"></textarea>
-                                                    <label for="message" class="text-theme">Mensaje</label>
+                                                    <label for="message">Mensaje</label>
                                                 </div>
 
                                             </div>
@@ -178,31 +181,31 @@
 
                                     </form>
 
-                                    <div class="text-center text-md-left">
+                                    <div class="text-center text-md-left mb-5">
                                         <a class="btn btn-theme color-theme z-depth-5"
                                             onclick="document.getElementById('contact-form').submit();">Send</a>
                                     </div>
                                     <div class="status"></div>
                                 </div>
-                                <!--Grid column-->
+                                <!-- Forma de Contacto -->
 
-                                <!--Grid column-->
-                                <div class="col-md-3 text-center bg-light">
-                                    <ul class="list-unstyled mb-0">
-                                        <li><i class="fas fa-map-marker-alt fa-2x text-theme"></i>
-                                            <p>San Francisco, CA 94126, USA</p>
+                                <!-- Datos Generales -->
+                                <div class="col-md-3 text-center color-theme d-flex align-items-center justify-content-center p-5">
+                                    <ul class="list-unstyled mb-0 text-center text-white">
+                                        <li><i class="fas fa-map-marker-alt fa-2x"></i>
+                                            <p class="text-center pt-3">San Francisco, CA 94126, USA</p>
                                         </li>
 
-                                        <li><i class="fas fa-phone mt-4 fa-2x text-theme"></i>
-                                            <p>+ 01 234 567 89</p>
+                                        <li><i class="fas fa-phone mt-4 fa-2x"></i>
+                                            <p class="text-center pt-3">+ 01 234 567 89</p>
                                         </li>
 
-                                        <li><i class="fas fa-envelope mt-4 fa-2x text-theme"></i>
-                                            <p>contact@shop.com</p>
+                                        <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+                                            <p class="text-center pt-3">contact@shop.com</p>
                                         </li>
                                     </ul>
                                 </div>
-                                <!--Grid column-->
+                                <!-- Datos Generales -->
 
                             </div>
 
