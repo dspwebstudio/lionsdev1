@@ -16,7 +16,7 @@ body {
 }
 
 .color-theme {
-  background-color: #203B80;
+  background-color: #0d47a1;
 }
 
 .text-theme {
@@ -30,7 +30,7 @@ body {
 .content hr {
   width: 250px;
   height: 3px;
-  background-color: #203B80;
+  background-color: #0d47a1;
   margin: 0 auto 10px 0;
 }
 
