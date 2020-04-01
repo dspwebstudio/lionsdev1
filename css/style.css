@@ -23,10 +23,6 @@ body {
   color: #0d47a1 !important;
 }
 
-.content-bg {
-  background-color: #ccc;
-}
-
 .content hr {
   width: 250px;
   height: 3px;
@@ -134,7 +130,8 @@ footer hr {
 }
 
 .section-content {
-  padding: 5em;
+  background-color: #cfd8dc;
+  padding: 2em;
 }
 
 .section-content p {
