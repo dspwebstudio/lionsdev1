@@ -74,6 +74,30 @@ main {
   .social-icons {
     padding: 50px 0;
   }
+  .hr-section-title {
+    height: 5px;
+    background-color: #0d47a1;
+    -webkit-transform: skew(30deg);
+            transform: skew(30deg);
+    width: 300px !important;
+    margin: auto;
+  }
+  .about .hr-section-title {
+    height: 5px;
+    background-color: #0d47a1;
+    -webkit-transform: skew(30deg);
+            transform: skew(30deg);
+    width: 450px !important;
+    margin: auto;
+  }
+  .blog .hr-section-title {
+    height: 5px;
+    background-color: #0d47a1;
+    -webkit-transform: skew(30deg);
+            transform: skew(30deg);
+    width: 200px !important;
+    margin: auto;
+  }
 }
 
 /* footer */
