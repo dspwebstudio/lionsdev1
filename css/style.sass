@@ -34,6 +34,7 @@ main
     height: 3px
     background-color: $color-theme
     margin: 0 auto 10px 0
+    transform: skew(30deg)
 
 /* navbar */
 .active
@@ -45,12 +46,12 @@ main
     width: 200px
 .bg-logo
     background-color: $background-navbar-logo
-@media screen and (max-width: 576px)
+@media screen and (max-width: 768px)
     .navbar-nav
-        height: 74vh
+        height: 71vh
     .nav-link
         margin: 10px 20px 0 20px
-@media screen and (min-width: 576px)
+@media screen and (min-width: 768px)
     .navbar
         padding: 0
     .nav-link
@@ -92,13 +93,18 @@ footer hr
     justify-content: center
     h1 
         color: #ffffff
-        font-size: 50px !important
-        // text-transform: uppercase
+        font-size: 40px !important
+        text-transform: uppercase
         letter-spacing: .1em
         font-weight: 400
+        text-align: center
     .hr-section-title
         height: 5px
         background-color: $color-theme
+        transform: skew(30deg)
+        width: 80vw
+        margin: auto
+
 .section-content
     background-color: #cfd8dc
     padding: 2em

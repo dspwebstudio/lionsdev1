@@ -34,6 +34,8 @@ main {
   height: 3px;
   background-color: #0d47a1;
   margin: 0 auto 10px 0;
+  -webkit-transform: skew(30deg);
+          transform: skew(30deg);
 }
 
 /* navbar */
@@ -52,16 +54,16 @@ main {
   background-color: #ccc;
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 768px) {
   .navbar-nav {
-    height: 74vh;
+    height: 71vh;
   }
   .nav-link {
     margin: 10px 20px 0 20px;
   }
 }
 
-@media screen and (min-width: 576px) {
+@media screen and (min-width: 768px) {
   .navbar {
     padding: 0;
   }
@@ -126,14 +128,20 @@ footer hr {
 
 .section-title h1 {
   color: #ffffff;
-  font-size: 50px !important;
+  font-size: 40px !important;
+  text-transform: uppercase;
   letter-spacing: .1em;
   font-weight: 400;
+  text-align: center;
 }
 
 .section-title .hr-section-title {
   height: 5px;
   background-color: #0d47a1;
+  -webkit-transform: skew(30deg);
+          transform: skew(30deg);
+  width: 80vw;
+  margin: auto;
 }
 
 .section-content {
