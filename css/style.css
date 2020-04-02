@@ -12,10 +12,8 @@ body {
   overflow-x: hidden;
 }
 
-header {
-  position: fixed;
-  top: 0;
-  left: 0;
+main {
+  margin-top: 144px;
 }
 
 .max-width {
