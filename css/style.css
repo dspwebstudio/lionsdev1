@@ -131,8 +131,9 @@ footer hr {
   font-weight: 400;
 }
 
-.section-title hr {
-  height: 3px;
+.section-title .hr-section-title {
+  height: 5px;
+  background-color: #0d47a1;
 }
 
 .section-content {
