@@ -1,9 +1,12 @@
 /* VARIABLES */
 /* general */
 /* navbar */
-* {
+*, *::before, *::after {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
 }
 
 body {
@@ -27,6 +30,10 @@ main {
 
 .text-theme {
   color: #0d47a1 !important;
+}
+
+.btn:active, .btn:hover {
+  color: #ffffff !important;
 }
 
 .content hr {
