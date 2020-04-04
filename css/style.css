@@ -253,4 +253,14 @@ footer hr {
   font-size: 1.2em;
   margin: 20px 0;
 }
+
+.footer-hr {
+  width: 60%;
+  height: 2px;
+  background-color: #ffffff;
+}
+
+.social-icons .fab {
+  font-size: 36px;
+}
 /*# sourceMappingURL=style.css.map */
