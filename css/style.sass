@@ -9,188 +9,83 @@ $color-theme: #0d47a1
 $background-navbar-logo: #ccc
 
 
-*, *::before, *::after
+*
     margin: 0
     padding: 0
-    box-sizing: border-box
-    -moz-box-sizing: border-box
-    -webkit-box-sizing: border-box
 
-body 
-    background-color: gray-dark
-    max-width: 100vw
-    overflow-x: hidden
-
-main 
-    margin-top: 144px
-.max-width 
-    max-width: 1200px
-    margin: auto
-
-.color-theme
+.color-theme 
     background-color: $color-theme
 .text-theme
-    color: $text-theme !important
+    color: $color-theme
 
-.btn:active, .btn:hover
-    color: #ffffff !important
-
-.content hr 
-    width: 250px
-    height: 3px
-    background-color: $color-theme
-    margin: 0 auto 10px 0
-    transform: skew(30deg)
-
-/* navbar */
-.active
-    border-bottom: 2px solid #ffffff
-.nav-link
-    font-size: 20px
-    padding: 10px
-    text-align: center
-    width: 200px
+/* logo */  
 .bg-logo
     background-color: $background-navbar-logo
-@media screen and (max-width: 768px)
-    .navbar-nav
-        height: 70vh
-    .social-icons 
-        padding: 10px 0
-    .nav-link
-        margin: 10px 20px 0 20px
+
+/* navbar */     
+.navbar 
+    background-color: $color-theme
+.navbar-nav 
+    height: 67vh
 @media screen and (min-width: 768px)
-    .navbar
-        padding: 0
-    .nav-link
-        font-size: 20px
+    .navbar-nav 
+        height: auto
+
+/* section */   
+.section-wrapper 
+    margin-top: 150px
+.view
+    width: 100%
+    height: 30vh
+    h1 
         text-align: center
-    .social-icons
-        padding: 50px 0
-    .hr-section-title
-        height: 5px
-        background-color: $color-theme
-        transform: skew(30deg)
-        width: 300px !important
         margin: auto
-    .about 
-        .hr-section-title
-            height: 5px
-            background-color: $color-theme
-            transform: skew(30deg)
-            width: 450px !important
-            margin: auto
-    .blog
-        .hr-section-title
-            height: 5px
-            background-color: $color-theme
-            transform: skew(30deg)
-            width: 200px !important
-            margin: auto
+.section-img 
+    width: 100vw
+    height: 30vh
+    position: fixed
+    z-index: -1
+.hr-section-title
+    height: 3px
+    background-color: $color-theme
+    width: 200px
+    margin: 10px auto
+    transform: skew(33deg)
+.section-content
+    background-color: #ffffff
+    padding: 30px
+    .content-wrapper 
+        max-width: 1200px
+        margin: auto
+        p 
+            color: darkgray
+            text-align: justify
+
+/* button */ 
+.btn 
+    border-radius: 10px
+
+/* index */ 
+.hr-card
+    height: 3px
+    background-color: $color-theme
+    width: 200px
+    transform: skew(33deg)
 
 /* footer */
-footer hr 
-    background-color: #fff
-    height: 1px
-.btn-theme
-    border-radius: 10px
-    margin-top: 20px
-.content
-    max-width: 700px
-
-.view, .view img
-    height: 50vh
-.view img
-    overflow: hidden 
-    object-fit: cover
-
-/* contacto */
-#message 
-    max-height: 20vh
-    min-height: 20vh
-
-    
-/* section */
-.section-wrapper
-    margin-top: 144px
-.section-title 
-    width: 100%
-    height: 40vh
-    display: flex
-    align-items: center
-    justify-content: center
-    h1 
-        color: #ffffff
-        font-size: 40px !important
-        text-transform: uppercase
-        letter-spacing: .1em
-        font-weight: 400
-        text-align: center
-    .hr-section-title
-        height: 5px
-        background-color: $color-theme
-        transform: skew(30deg)
-        width: 80vw
+footer 
+    .footer-hr 
+        height: 3px
+        background-color: #ffffff
+        width: 200px
         margin: auto
-
-.section-content
-    background-color: #cfd8dc
-    padding: 2em
-    p 
-        text-align: justify
-
-@mixin background-image()
-    background-attachment: fixed
-    background-repeat: no-repeat
-    background-size: cover
-    background-position: center -144px
-    object-fit: cover
-
-.rounded
-    border-radius: 10px !important
-
-/* ABOUT */ 
-.about
-    background: url('../img/imagenes/edificio.jpeg')
-    @include background-image
-
-/* SERVICIOS */ 
-.services
-    background: url('../img/imagenes/welcome.jpeg')
-    @include background-image
-
-/* CONTACT */
-.contact
-    background: url('../img/imagenes/contacto.jpeg')
-    @include background-image
-
-    .pregunta
-        font-size: 20px
-        font-weight: 400
-        color: #37474f
-
-/* BLOG */  
-.blog
-    background: url('../img/imagenes/blog.jpeg')
-    @include background-image
-    img 
-        width: 100%
-        height: 100%
-        object-fit: cover
-
-/* FOOTER */
-.footer-link
-    font-size: 1.2em
-    margin: 20px 0
-.footer-hr
-    width: 60%
-    height: 2px
-    background-color: #ffffff
-    transform: skew(30deg)
-
-@media screen and (max-width: 576px)
-    .footer-hr
-        margin: auto
-
-.social-icons .fab
-    font-size: 40px
+        transform: skew(33deg)
+    @media screen and (min-width: 576px)
+        .footer-hr 
+            margin: 0
+    .mensaje 
+        font-size: 18px
+    .footer-link 
+        font-size: 18px
+    .fab
+        font-size: 30px
