@@ -63,7 +63,7 @@ main {
 
 @media screen and (max-width: 768px) {
   .navbar-nav {
-    height: 63vh;
+    height: 70vh;
   }
   .social-icons {
     padding: 10px 0;
