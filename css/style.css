@@ -94,6 +94,14 @@
           transform: skew(33deg);
 }
 
+/* about */
+@media screen and (min-width: 576px) {
+  .about .img-title {
+    position: relative;
+    top: -200px;
+  }
+}
+
 /* footer */
 footer .footer-hr {
   height: 3px;
