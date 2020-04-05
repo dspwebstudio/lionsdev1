@@ -87,11 +87,16 @@
 
 /* index */
 .index .view, .index img {
-  height: 50vh;
+  height: 44vh;
 }
 
 .index .btn {
   margin-top: 20px;
+}
+
+.index img {
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .hr-card {
