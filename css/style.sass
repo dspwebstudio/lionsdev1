@@ -80,12 +80,16 @@ $background-navbar-logo: #ccc
     transform: skew(33deg)
 
 /* about */ 
-@media screen and (min-width: 576px)
+@media screen and (min-width: 769px)
     .about
         .img-title
             position: relative
             top: -200px
-
+@media screen and (max-width: 768px)
+    .about
+        .img-title
+            position: relative
+            top: 0
 /* footer */
 footer 
     .footer-hr 
