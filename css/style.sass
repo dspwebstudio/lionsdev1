@@ -1,9 +1,8 @@
 /* VARIABLES */
     
 /* general */
-$text-theme: #0d47a1
-// $color-theme: rgb(13, 71, 161)
-$color-theme: #0d47a1
+$text-theme: #0d47a0
+$color-theme: #0d47a0
 
 /* navbar */ 
 $background-navbar-logo: #ccc
@@ -18,19 +17,36 @@ $background-navbar-logo: #ccc
 .text-theme
     color: $color-theme
 
+.max-width
+    max-width: 1300px
+
 /* logo */  
 .bg-logo
     background-color: $background-navbar-logo
 
-/* navbar */     
+/* navbar */
+header 
+    background-color: $color-theme  
 .navbar 
     background-color: $color-theme
+    padding: 30px
 .navbar-nav 
     height: 67vh
+
 @media screen and (min-width: 768px)
     .navbar-nav 
         height: auto
-
+@media screen and (min-width: 1024px)
+    .navbar
+        padding: 0 !important
+    .nav-item
+        width: 130px
+        text-align: center
+        padding: 10px 0 20px 0
+        &:hover
+            background-color: darken($color-theme, 5%)
+.active 
+    border-bottom: 2px solid #ffffff
 /* section */
 .section-wrapper 
     margin-top: 150px
@@ -52,13 +68,13 @@ $background-navbar-logo: #ccc
     margin: 10px auto
     transform: skew(33deg)
 .section-content
-    background-color: #ffffff
+    background-color: #e0e0e0
     padding: 30px
     .content-wrapper 
         max-width: 1200px
         margin: auto
         p 
-            color: darkgray
+            color: #263238
             text-align: justify
 
 /* button */ 

@@ -7,11 +7,15 @@
 }
 
 .color-theme {
-  background-color: #0d47a1;
+  background-color: #0d47a0;
 }
 
 .text-theme {
-  color: #0d47a1;
+  color: #0d47a0;
+}
+
+.max-width {
+  max-width: 1300px;
 }
 
 /* logo */
@@ -20,8 +24,13 @@
 }
 
 /* navbar */
+header {
+  background-color: #0d47a0;
+}
+
 .navbar {
-  background-color: #0d47a1;
+  background-color: #0d47a0;
+  padding: 30px;
 }
 
 .navbar-nav {
@@ -32,6 +41,24 @@
   .navbar-nav {
     height: auto;
   }
+}
+
+@media screen and (min-width: 1024px) {
+  .navbar {
+    padding: 0 !important;
+  }
+  .nav-item {
+    width: 130px;
+    text-align: center;
+    padding: 10px 0 20px 0;
+  }
+  .nav-item:hover {
+    background-color: #0b3d88;
+  }
+}
+
+.active {
+  border-bottom: 2px solid #ffffff;
 }
 
 /* section */
@@ -58,7 +85,7 @@
 
 .hr-section-title {
   height: 3px;
-  background-color: #0d47a1;
+  background-color: #0d47a0;
   width: 200px;
   margin: 10px auto;
   -webkit-transform: skew(33deg);
@@ -66,7 +93,7 @@
 }
 
 .section-content {
-  background-color: #ffffff;
+  background-color: #e0e0e0;
   padding: 30px;
 }
 
@@ -76,7 +103,7 @@
 }
 
 .section-content .content-wrapper p {
-  color: darkgray;
+  color: #263238;
   text-align: justify;
 }
 
@@ -101,7 +128,7 @@
 
 .hr-card {
   height: 3px;
-  background-color: #0d47a1;
+  background-color: #0d47a0;
   width: 200px;
   -webkit-transform: skew(33deg);
           transform: skew(33deg);
