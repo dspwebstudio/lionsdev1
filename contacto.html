@@ -123,113 +123,110 @@
             </div>
             <!-- Contenido -->
             <div class="section-content content-bg lighten-5 p-5">
-                <div class="content-wrapper">
-                    <!-- Contacto -->
-                    <div class="container-fluid">
-                        <!--Section: Contact v.2-->
-                        <div class="m-auto p-0">
 
-                            <!--Section heading-->
-                            <!-- <h2 class="h1-responsive font-weight-bold text-center my-4 text-theme">Contacto</h2> -->
-                            <!--Section description-->
-                            <p class="pregunta text-justify w-responsive mx-auto mb-5 text-gray max-width">¿Tiene usted alguna pregunta? Por favor no
-                                dude en
-                                contactar con nosotros
-                                directamente. Nuestro equipo volverá a usted dentro de cuestión de horas para ayudarlo.
-                            </p>
+                <!-- Formulario -->
+                <!-- Contacto -->
+                <div class="container-fluid">
+                    <!--Section: Contact v.2-->
+                    <div class="max-width m-auto">
+                        <!--Section description-->
+                        <p class="text-justify w-responsive mx-auto mb-5">¿Tiene usted alguna pregunta? Por favor no
+                            dude en
+                            contactar con nosotros
+                            directamente. Nuestro equipo volverá a usted dentro de cuestión de horas para ayudarlo.</p>
 
-                            <div class="row p-0">
+                        <!-- Tabla de Formulario -->
+                        <div class="row p-0">
 
-                                <!-- Forma de Contacto -->
-                                <div class="col-lg-9 mb-md-0 mb-5 bg-white p-5">
-                                    <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+                            <!--Grid column-->
+                            <div class="col-md-7 mb-md-0 mb-5 bg-white">
+                                <form id="contact-form" name="contact-form" action="mail.php" method="POST">
 
-                                        <!--Grid row-->
-                                        <div class="row">
+                                    <!--Grid row-->
+                                    <div class="row">
 
-                                            <!--Grid column-->
-                                            <div class="col-md-6">
-                                                <div class="md-form mb-0">
-                                                    <input type="text" id="name" name="name" class="form-control">
-                                                    <label for="name">Nombre</label>
-                                                </div>
-                                            </div>
-                                            <!--Grid column-->
-
-                                            <!--Grid column-->
-                                            <div class="col-md-6">
-                                                <div class="md-form mb-0">
-                                                    <input type="text" id="email" name="email" class="form-control">
-                                                    <label for="email">email</label>
-                                                </div>
-                                            </div>
-                                            <!--Grid column-->
-
-                                        </div>
-                                        <!--Grid row-->
-
-                                        <!--Grid row-->
-                                        <div class="row">
-                                            <div class="col-md-12">
-                                                <div class="md-form mb-0">
-                                                    <input type="text" id="subject" name="subject" class="form-control">
-                                                    <label for="subject">Asunto</label>
-                                                </div>
+                                        <!--Grid column-->
+                                        <div class="col-md-6">
+                                            <div class="md-form mb-0">
+                                                <input type="text" id="name" name="name" class="form-control">
+                                                <label for="name" class="">Nombre</label>
                                             </div>
                                         </div>
-                                        <!--Grid row-->
+                                        <!--Grid column-->
 
-                                        <!--Grid row-->
-                                        <div class="row">
-
-                                            <!--Grid column-->
-                                            <div class="col-md-12">
-
-                                                <div class="md-form">
-                                                    <textarea type="text" id="message" name="message" rows="2"
-                                                        class="form-control md-textarea"></textarea>
-                                                    <label for="message">Mensaje</label>
-                                                </div>
-
+                                        <!--Grid column-->
+                                        <div class="col-md-6">
+                                            <div class="md-form mb-0">
+                                                <input type="text" id="email" name="email" class="form-control">
+                                                <label for="email" class="">email</label>
                                             </div>
                                         </div>
-                                        <!--Grid row-->
+                                        <!--Grid column-->
 
-                                    </form>
-
-                                    <div class="text-center text-md-left mb-5">
-                                        <a class="btn btn-theme color-theme z-depth-5"
-                                            onclick="document.getElementById('contact-form').submit();">enviar</a>
                                     </div>
-                                    <div class="status"></div>
+                                    <!--Grid row-->
+
+                                    <!--Grid row-->
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="md-form mb-0">
+                                                <input type="text" id="subject" name="subject" class="form-control">
+                                                <label for="subject" class="">Asunto</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--Grid row-->
+
+                                    <!--Grid row-->
+                                    <div class="row">
+
+                                        <!--Grid column-->
+                                        <div class="col-md-12">
+
+                                            <div class="md-form">
+                                                <textarea type="text" id="message" name="message" rows="2"
+                                                    class="form-control md-textarea"></textarea>
+                                                <label for="message">Mensaje</label>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <!--Grid row-->
+
+                                </form>
+
+                                <div class="text-center text-md-left">
+                                    <a class="btn btn-theme color-theme z-depth-5"
+                                        onclick="document.getElementById('contact-form').submit();">enviar</a>
                                 </div>
-                                <!-- Forma de Contacto -->
-
-                                <!-- Datos Generales -->
-                                <div class="col-lg-3  text-center color-theme d-flex align-items-center justify-content-center py-5">
-                                    <ul class="list-unstyled mb-0 text-center text-white">
-                                        <li><i class="fas fa-map-marker-alt fa-2x"></i>
-                                            <p class="text-center pt-3 text-white">San Francisco, CA 94126, USA</p>
-                                        </li>
-
-                                        <li><i class="fas fa-phone mt-4 fa-2x"></i>
-                                            <p class="text-center pt-3 text-white">+ 01 234 567 89</p>
-                                        </li>
-
-                                        <li><i class="fas fa-envelope mt-4 fa-2x"></i>
-                                            <p class="text-center pt-3 text-white">contacto@lionsdevstudio.com</p>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <!-- Datos Generales -->
-
+                                <div class="status"></div>
                             </div>
+                            <!--Grid column-->
+                            <!-- Contact Information-->
+                            <div class="col-md-5 text-center flex-center p-5 color-theme text-white">
+                                <ul class="list-unstyled mb-0">
+                                    <li><i class="fas fa-map-marker-alt fa-2x"></i>
+                                        <p class="mt-2">San Francisco, CA 94126, USA</p>
+                                    </li>
 
+                                    <li><i class="fas fa-phone mt-4 fa-2x"></i>
+                                        <p class="mt-2">+ 01 234 567 89</p>
+                                    </li>
+
+                                    <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+                                        <p class="mt-2">contacto@lionsdevstudio.com</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <hr>
+                            <!-- ./Contact Information-->
                         </div>
-                        <!--Section: Contact v.2-->
+                        <!-- ./Tabla de Formulario -->
                     </div>
-                    <!-- ./Contacto -->
+                    <!--Section: Contact v.2-->
                 </div>
+                <!-- ./Contacto -->
+                <!-- ./Formulario -->
                 <!--Google map-->
                 <div id="map-container-google-1" class="map-container my-5 max-width mx-auto" style="height: 40vh;">
                     <iframe
@@ -245,7 +242,7 @@
     </main>
     <!-- Contenido -->
 
-    
+
     <!-- Footer -->
     <footer class="page-footer font-small pt-4 color-theme">
 
@@ -265,7 +262,7 @@
 
                 </div>
                 <!-- Grid column -->
-                
+
                 <!-- Links -->
                 <div class="col-md-4 mb-md-0 mb-3">
 
@@ -301,7 +298,7 @@
                             <i class="fab fa-linkedin pr-3"></i>
                         </a>
                         <!-- ./Linked In -->
-                        
+
                         <!-- Skype -->
                         <a href="#" class="text-white">
                             <i class="fab fa-skype px-3"></i>
