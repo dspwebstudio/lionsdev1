@@ -135,6 +135,9 @@ header {
 }
 
 @media screen and (max-width: 576px) {
+  .index {
+    margin-top: 159.5px;
+  }
   .index .view, .index img {
     height: 50vh;
   }
