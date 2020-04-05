@@ -68,11 +68,11 @@ header
     margin: 10px auto
     transform: skew(33deg)
 .section-content
-    background-color: #e0e0e0
-    padding: 30px
+    background-color: lighten($color-theme,60% )
     .content-wrapper 
         max-width: 1200px
         margin: auto
+        padding: 60px 40px
         p 
             color: #263238
             text-align: justify
@@ -111,6 +111,36 @@ header
         .img-title
             position: relative
             top: 0
+
+/* servicios */
+.servicios-h2
+    font-size: 40px
+    font-weight: bold
+    padding: 30px 0
+.card-img-top
+    height: 100px
+.bg-light-blue-1
+    background-color: lighten($color-theme,58% )
+
+
+.card-title
+    padding-top: 10px
+    color: $color-theme
+    text-align: center
+
+.card-text 
+    padding: 20px
+.fab 
+    padding: 20px 0
+
+
+
+/* contacto */ 
+.contact
+    #mensaje 
+        min-height: 300px
+        max-height: 300px
+
 /* footer */
 footer 
     .footer-hr 
@@ -127,4 +157,4 @@ footer
     .footer-link 
         font-size: 18px
     .fab
-        font-size: 30px
+        font-size: 40px

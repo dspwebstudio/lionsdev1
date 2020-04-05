@@ -93,13 +93,13 @@ header {
 }
 
 .section-content {
-  background-color: #e0e0e0;
-  padding: 30px;
+  background-color: #e2edfd;
 }
 
 .section-content .content-wrapper {
   max-width: 1200px;
   margin: auto;
+  padding: 60px 40px;
 }
 
 .section-content .content-wrapper p {
@@ -158,6 +158,41 @@ header {
   }
 }
 
+/* servicios */
+.servicios-h2 {
+  font-size: 40px;
+  font-weight: bold;
+  padding: 30px 0;
+}
+
+.card-img-top {
+  height: 100px;
+}
+
+.bg-light-blue-1 {
+  background-color: #d9e7fc;
+}
+
+.card-title {
+  padding-top: 10px;
+  color: #0d47a0;
+  text-align: center;
+}
+
+.card-text {
+  padding: 20px;
+}
+
+.fab {
+  padding: 20px 0;
+}
+
+/* contacto */
+.contact #mensaje {
+  min-height: 300px;
+  max-height: 300px;
+}
+
 /* footer */
 footer .footer-hr {
   height: 3px;
@@ -183,6 +218,6 @@ footer .footer-link {
 }
 
 footer .fab {
-  font-size: 30px;
+  font-size: 40px;
 }
 /*# sourceMappingURL=style.css.map */
