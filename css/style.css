@@ -134,6 +134,12 @@ header {
           transform: skew(33deg);
 }
 
+@media screen and (max-width: 576px) {
+  .index .view, .index img {
+    height: 50vh;
+  }
+}
+
 /* about */
 @media screen and (min-width: 769px) {
   .about .img-title {
