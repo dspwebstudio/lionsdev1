@@ -15,7 +15,7 @@
 }
 
 .max-width {
-  max-width: 1300px;
+  max-width: 1200px;
 }
 
 /* logo */
@@ -114,7 +114,7 @@ header {
 
 /* index */
 .index .view, .index img {
-  height: 44vh;
+  height: 43vh;
 }
 
 .index .btn {
