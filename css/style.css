@@ -166,12 +166,12 @@ header {
 }
 
 /* servicios */
-.card-img-top {
-  height: 100px;
-}
-
 .bg-light-blue-1 {
   background-color: #d9e7fc;
+}
+
+.bg-light-blue-2 {
+  background-color: #cbdefb;
 }
 
 .card-title {
