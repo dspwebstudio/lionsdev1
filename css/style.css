@@ -30,7 +30,7 @@ header {
 
 .navbar {
   background-color: #0d47a0;
-  padding: 30px;
+  padding: 10px !important;
 }
 
 .navbar-nav {
@@ -38,6 +38,9 @@ header {
 }
 
 @media screen and (min-width: 768px) {
+  .navbar {
+    padding: 0 !important;
+  }
   .navbar-nav {
     height: auto;
   }
@@ -63,7 +66,7 @@ header {
 
 /* section */
 .section-wrapper {
-  margin-top: 150px;
+  margin-top: 220px;
 }
 
 .view {
@@ -166,15 +169,15 @@ header {
 }
 
 /* servicios */
-.bg-light-blue-1 {
+.services .bg-light-blue-1 {
   background-color: #d9e7fc;
 }
 
-.bg-light-blue-2 {
+.services .bg-light-blue-2 {
   background-color: #cbdefb;
 }
 
-.card-title {
+.services .card-title {
   padding-top: 10px;
   color: #0d47a0;
   text-align: center;
@@ -186,6 +189,11 @@ header {
 
 .fab {
   padding: 20px 0;
+}
+
+/* blog */
+.card-img-top {
+  height: 200px;
 }
 
 /* contacto */

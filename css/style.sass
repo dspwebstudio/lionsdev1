@@ -29,11 +29,13 @@ header
     background-color: $color-theme  
 .navbar 
     background-color: $color-theme
-    padding: 30px
+    padding: 10px !important
 .navbar-nav 
     height: 67vh
 
 @media screen and (min-width: 768px)
+    .navbar
+        padding: 0 !important   
     .navbar-nav 
         height: auto
 @media screen and (min-width: 1024px)
@@ -51,7 +53,7 @@ header
 
 /* section */
 .section-wrapper 
-    margin-top: 150px
+    margin-top: 220px
 .view
     width: 100%
     height: 30vh
@@ -122,14 +124,15 @@ header
 
 
 /* servicios */
-.bg-light-blue-1
-    background-color: lighten($color-theme,58% )
-.bg-light-blue-2
-    background-color: lighten($color-theme,55% )
-.card-title
-    padding-top: 10px
-    color: $color-theme
-    text-align: center
+.services 
+    .bg-light-blue-1
+        background-color: lighten($color-theme,58% )
+    .bg-light-blue-2
+        background-color: lighten($color-theme,55% )
+    .card-title
+        padding-top: 10px
+        color: $color-theme
+        text-align: center
 
 .card-text 
     padding: 20px
@@ -137,8 +140,8 @@ header
     padding: 20px 0
 
 /* blog */  
-    .card-img-top
-        height: 200px
+.card-img-top
+    height: 200px
 
 /* contacto */ 
 .contact
