@@ -44,22 +44,25 @@ header {
 
 @media screen and (min-width: 768px) {
   .navbar {
-    padding: 0 !important;
+    padding: 0;
   }
   .navbar-nav {
     height: auto;
+  }
+  .nav-item {
+    margin: auto;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .navbar {
-    padding: 0 !important;
+    padding: 0;
   }
   .nav-item {
     width: 160px;
     text-align: center;
     font-size: 1em;
-    padding: 10px 0 20px 0;
+    margin: auto;
   }
   .nav-item:hover {
     background-color: #0b3d88;
@@ -72,7 +75,7 @@ header {
 
 /* section */
 .section-wrapper {
-  margin-top: 220px;
+  margin-top: 147.25px;
 }
 
 .view {
@@ -107,7 +110,7 @@ header {
 }
 
 .section-content .content-wrapper {
-  max-width: 1200px;
+  max-width: 1000px;
   margin: auto;
   padding: 60px 40px;
 }
@@ -226,6 +229,10 @@ header {
   height: 200px;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.article .content-wrapper {
+  min-height: 24vh;
 }
 
 /* contacto */
