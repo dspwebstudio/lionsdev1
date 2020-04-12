@@ -15,6 +15,11 @@ $background-navbar-logo: #ccc
 body 
     font-family: 'Raleway', sans-serif;
 
+h4 
+    font-size: 18px
+h5
+    font-size: 14px
+
 .color-theme 
     background-color: $color-theme
 .text-theme
@@ -32,7 +37,9 @@ header
     background-color: $color-theme  
 .navbar 
     background-color: $color-theme
-    padding: 10px !important
+    padding: 20px
+    .social-icons
+        padding: 0 auto !important
 .navbar-nav 
     height: 60vh
 
@@ -48,9 +55,13 @@ header
         padding: 0
     .nav-item
         width: 160px
+        height: 70px
         text-align: center
         font-size: 1em
-        margin: auto
+        margin: auto 0
+        display: flex
+        align-items: center
+        justify-content: center
         &:hover
             background-color: darken($color-theme, 5%)
 .active 
@@ -98,6 +109,8 @@ header
 .btn-theme
     background-color: $color-theme
     color: #ffffff
+    &:hover 
+        color: #ffffff
 
 
 /* index */
