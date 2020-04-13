@@ -262,12 +262,12 @@ header {
 }
 
 /* contacto */
-.contact #message {
+#message {
   min-height: 200px;
   max-height: 200px;
 }
 
-.contact .contact-information {
+.contact-information {
   height: 65vh;
 }
 
