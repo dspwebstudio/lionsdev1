@@ -21,10 +21,14 @@ h4
     font-size: 25px
 h5
     font-size: 14px
+
+/* Colores */
 .color-theme 
     background-color: $color-theme
 .text-theme
     color: $color-theme
+.bg-light-blue-5
+    background-color: lighten($color-theme, 55%)
 
 .max-width
     max-width: 1200px
@@ -81,7 +85,6 @@ header
         padding: 0 auto !important
 .navbar-nav 
     height: 60vh
-
 @media screen and (min-width: 768px)
     .navbar
         padding: 0
@@ -134,8 +137,17 @@ header
         .view , img
             height: 50vh
 
-/* about */
-@media screen and (min-width: 769px)
+/* Sobre Nosotros */
+.carousel
+    .carousel-item
+        width: 100%
+        height: 20vh
+        .content-img
+            display: flex
+            align-items: center
+            justify-content: center
+
+@media screen and (min-width: 768px)
     .about
         .img-title
             position: relative
