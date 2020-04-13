@@ -14,7 +14,7 @@ body {
 }
 
 h4 {
-  font-size: 18px;
+  font-size: 25px;
 }
 
 h5 {
@@ -40,7 +40,10 @@ h5 {
 
 .section-wrapper .view {
   width: 100%;
-  height: 35vh;
+  height: 30vh;
+}
+
+.section-wrapper .view h1 {
   text-align: center;
   margin: auto;
   font-size: 40px;
@@ -284,22 +287,6 @@ header {
   font-size: 20px;
   font-weight: bold;
   text-align: center;
-}
-
-/* section */
-.section-wrapper {
-  margin-top: 151.25px;
-}
-
-.view {
-  width: 100%;
-  height: 40vh;
-}
-
-.view h1 {
-  text-align: center;
-  margin: auto;
-  font-size: 40px;
 }
 
 /* Footer */
