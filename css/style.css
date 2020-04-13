@@ -97,7 +97,7 @@ header {
 
 /* section */
 .section-wrapper {
-  margin-top: 147.25px;
+  margin-top: 151.25px;
 }
 
 .view {
@@ -262,9 +262,13 @@ header {
 }
 
 /* contacto */
-.contact #mensaje {
-  min-height: 300px;
-  max-height: 300px;
+.contact #message {
+  min-height: 200px;
+  max-height: 200px;
+}
+
+.contact .contact-information {
+  height: 65vh;
 }
 
 /* footer */
