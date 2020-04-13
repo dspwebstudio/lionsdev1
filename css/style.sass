@@ -1,5 +1,6 @@
 /* VARIABLES */
 @import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
 /* general */
 $text-theme: #0d47a0
 $color-theme: #0d47a0
@@ -185,10 +186,14 @@ header
 /* contacto */ 
 .contact
     #message
-        min-height: 200px
-        max-height: 200px
+        min-height: 400px
+        max-height: 400px
     .contact-information
         height: 65vh
+@media screen and (min-width: 768px)
+    #message
+        min-height: 200px
+        max-height: 200px
 
 /* footer */
 footer 
