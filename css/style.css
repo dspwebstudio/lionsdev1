@@ -226,12 +226,50 @@ header {
     position: relative;
     top: 0 px;
   }
+  .clientes {
+    height: 50vh;
+    padding-bottom: 0;
+  }
+  .clientes .carousel {
+    width: 100%;
+    height: 70vh;
+  }
+  .clientes .carousel .content-img {
+    width: 100%;
+    margin: auto;
+  }
+  .clientes .carousel .content-img .susimpatica {
+    width: 200px;
+  }
+  .clientes .carousel .content-img .adidas {
+    width: 100px;
+  }
+  .clientes .carousel .content-img .coca-cola {
+    width: 200px;
+    position: relative;
+    top: -100px;
+  }
 }
 
 @media screen and (max-width: 768px) {
   .about .img-title {
     position: relative;
     top: 0;
+  }
+  .content-img {
+    width: 100%;
+    margin: auto;
+  }
+  .content-img .susimpatica {
+    width: 200px;
+  }
+  .content-img .adidas {
+    width: 100px;
+  }
+  .content-img .coca-cola {
+    width: 200px;
+    position: relative;
+    top: -70px;
   }
 }
 
