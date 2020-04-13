@@ -139,6 +139,8 @@ header
 
 /* Sobre Nosotros */
 .carousel
+    .active 
+        border-bottom: 0
     .carousel-item
         width: 100%
         height: 20vh
@@ -152,23 +154,40 @@ header
             position: relative
             top: 0 px
     .clientes 
-        height: 50vh
+        height: 30vh
         padding-bottom: 0
         .carousel
             width: 100%
-            height: 70vh
+            height: 20vh
+            display: flex
+            align-items: center
+            justify-content: center
             .content-img
                 width: 100%
-                margin: auto
                 .susimpatica
                     width: 200px
                 .adidas
                     width: 100px
                 .coca-cola
                     width: 200px
-                    position: relative
-                    top: -100px
 @media screen and (max-width: 768px)
+    .about
+        .img-title
+            position: relative
+            top: 0
+    .content-img
+        width: 100%
+        margin: auto
+
+        .susimpatica
+            width: 200px
+        .adidas
+            width: 100px
+        .coca-cola
+            width: 200px
+            position: relative
+            top: -70px
+@media screen and (min-width: 1280px)
     .about
         .img-title
             position: relative
