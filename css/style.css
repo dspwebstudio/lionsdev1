@@ -13,6 +13,10 @@ body {
   background-color: darkgray;
 }
 
+h2 {
+  font-size: 36px;
+}
+
 h4 {
   font-size: 25px;
 }
@@ -30,8 +34,24 @@ h5 {
   color: #0d47a0;
 }
 
-.bg-light-blue-5 {
+.bg-light-blue-1 {
+  background-color: #d9e7fc;
+}
+
+.bg-light-blue-2 {
   background-color: #cbdefb;
+}
+
+.bg-light-blue-3 {
+  background-color: #bdd5fa;
+}
+
+.bg-light-blue-4 {
+  background-color: #aeccf8;
+}
+
+.bg-light-blue-5 {
+  background-color: #a0c3f7;
 }
 
 .max-width {
@@ -89,7 +109,6 @@ h5 {
 }
 
 .content-h2 {
-  font-size: 30px;
   font-weight: bold;
   padding: 30px 0;
 }
@@ -156,6 +175,18 @@ header {
 
 .active {
   border-bottom: 2px solid #ffffff;
+}
+
+.txt-banner {
+  color: #ffffff;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.flag {
+  width: 30px;
+  height: 20px;
 }
 
 /* Button */
@@ -306,14 +337,6 @@ header {
 }
 
 /* Servicios */
-.services .bg-light-blue-1 {
-  background-color: #d9e7fc;
-}
-
-.services .bg-light-blue-2 {
-  background-color: #cbdefb;
-}
-
 .services .card-title {
   padding-top: 10px;
   color: #0d47a0;
