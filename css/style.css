@@ -354,8 +354,33 @@ header {
      object-fit: cover;
 }
 
+.article .blog-subtitle {
+  font-size: 20px;
+}
+
+.article .blog-subtitle .author, .article .blog-subtitle .date {
+  margin-right: 20px !important;
+}
+
 .article .content-wrapper {
   min-height: 24vh;
+}
+
+.article .content-wrapper p {
+  margin-top: 60px;
+}
+
+.pagination.pg-blue .page-item .page-link {
+  font-size: 1.2em;
+}
+
+@media screen and (min-width: 576px) {
+  .article .content-wrapper {
+    padding-top: 80px;
+  }
+  .article .content-wrapper p {
+    margin-top: 0;
+  }
 }
 
 /* Contacto */
