@@ -27,6 +27,11 @@
     <link rel="stylesheet" href="css/style.css">
     <!-- AOS -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- SmoothScroll -->
+    <script src="js/smooth-scroll.js"></script>
+    <script>
+        var scroll = new SmoothScroll('a[href*="#"]');
+    </script>
 </head>
 
 <body>
@@ -122,8 +127,8 @@
     <!-- Contenido -->
     <main>
 
-        <!-- WELCOME -->
-        <div class="welcome container-fluid  d-flex flex-column align-items-center justify-content-center">
+        <!-- Bienvenida -->
+        <div class="welcome container-fluid  d-none flex-column align-items-center justify-content-center">
             <div class="welcome-img">
                 <!-- <video autoplay loop class="w-100"><source src="img/sky.mp4" type="video/mp4"><source src="movie.ogg" type="video/ogg">Your browser does not support the video tag.</video> -->
             </div>
@@ -132,13 +137,33 @@
                 <h1>Diseño & Desarrollo Web</h1>
                 <br>
                 <p class="slogan">Donde nosotros damos a conocer tu negocio en la red.</p>
-                <a href="#about" class="btn btn-outline-white">Continuar</a>
-
+                <a data-scroll href="#index" class="btn btn-outline-white mt-5">Secciones</a>
+                <a data-scroll href="#contacto" class="btn-contacto btn btn-outline-white d-none">Contacto</a>
             </div>
         </div>
-        <!-- ./WELCOME -->
+        <!-- ./Bienvenida -->
 
-        <div class="index p-0">
+        <!-- Bienvenida Test -->
+        <section class="welcome-2 full-screen">
+            <div class="view full-screen pt-5">
+                <div class="section-img d-block w-100">
+                    <img src="img/imagenes/c5.jpeg" class="full-screen object-fit-cover" alt="personas saludando">
+                </div>
+                <div class="mask rgba-stylish-strong section-title d-flex align-items-center justify-content-center">
+                    <div class="white-text text-center p-5">
+                        <h1 class="h1-responsive text-center pt-5">Diseño y Desarrollo Web</h1>
+                        <hr class="hr-section-title">
+                        <p class="slogan">Donde nosotros damos a conocer tu negocio en la red.</p>
+                        <a data-scroll href="#index" class="btn btn-outline-white mt-5">Secciones</a>
+                        <a data-scroll href="#contacto" class="btn-contacto btn btn-outline-white d-none">Contacto</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ./Bienvenida Test -->
+
+        <!-- Secciones -->
+        <div id="index" class="index p-0">
             <div class="container-fluid">
                 <!-- quienes somos & servicios -->
                 <div class="row p-0">
@@ -241,7 +266,7 @@
             </div>
 
             <!-- Contacto -->
-            <div class="container-fluid bg-light-blue-5 d-md-none">
+            <div id="contacto" class="container-fluid bg-light-blue-5 d-md-none">
                 <!--Section: Contact v.2-->
                 <div class="p-5 max-width m-auto">
                     <!--Section heading-->
@@ -332,6 +357,8 @@
             </div>
             <!-- ./Contacto -->
         </div>
+        <!-- Secciones -->
+
     </main>
     <!-- Contenido -->
 

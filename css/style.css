@@ -24,6 +24,16 @@ h5 {
   font-size: 14px;
 }
 
+.full-screen {
+  width: 100%;
+  height: 100vh;
+}
+
+.object-fit-cover {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 /* Colores */
 .color-theme {
   background-color: #0d47a0;
@@ -232,6 +242,11 @@ header {
 @media screen and (max-width: 576px) {
   .index .view, .index img {
     height: 50vh;
+  }
+  .btn-contacto {
+    width: 53%;
+    margin: 20px auto 0;
+    display: block !important;
   }
 }
 
