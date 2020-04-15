@@ -30,12 +30,32 @@
 
 <body>
     <!-- Encabezado -->
-    <header class="fixed-top">
+    <header class="fixed-top ">
+        <!-- Date & Time section -->
+        <div class="info col-12 pt-3 bg-date-time d-flex">
+            <div class="mr-auto txt-banner">
+                <i class="far fa-calendar-alt mr-1"></i><span id="date"></span>
+                <i class="far fa-clock ml-2 mr-1"></i><span id="time"></span>
+            </div>
+            <div class="ml-auto d-flex">
+                <img class="img-fluid flag" src="img/imagenes/mexico-flag.png" alt="mexico flag" />
+                <a href="tel:+524433470722" class="txt-banner">
+                    <i class="fas fa-phone ml-2 d-flex">
+                        <p class="ml-1 txt-banner">4433470722</p>
+                    </i>
+                </a>
+            </div>
+        </div>
+        <!-- ./Date & Time section -->
+
+        <!-- Logo -->
         <div class="logo bg-logo py-3 text-center">
             <a class="navbar-brand" href="index.html">
                 <img src="img/logo/lionsdev-blue.png" alt="logo" width="140">
             </a>
         </div>
+        <!-- ./Logo -->
+
         <!-- Menú -->
         <nav class="navbar navbar-expand-md navbar-dark color-theme p-0">
             <button class="navbar-toggler d-lg-none p-3" type="button" data-toggle="collapse"
@@ -46,27 +66,24 @@
             <div class="collapse navbar-collapse" id="collapsibleNavId">
                 <ul class="navbar-nav m-auto d-flex align-items-center justify-content-center">
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html">Inicio<span class="sr-only">(current)</span></a>
+                        <a class="nav-link active" href="index.html">Inicio<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="quienes-somos.html">Quienes Somos</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="servicios.html">Servicios</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#servicios.html" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Servicios</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownId">
+                            <a data-scroll class="dropdown-item" href="#nuestros-servicios">Nuestros Servicios</a>
+                            <a data-scroll class="dropdown-item text-theme" href="#que-ofrecemos">¿Qué ofrecemos?</a>
+                            <a data-scroll class="dropdown-item text-theme" href="#como-logramos">¿Cómo lo logramos?</a>
+                        </div>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="blog.html">Blog</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="contacto.html">Contacto</a>
-                    </li>
-                    <li class="nav-item dropdown d-none">
-                        <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown"
-                            aria-haspopup="true" aria-expanded="false">Dropdown</a>
-                        <div class="dropdown-menu" aria-labelledby="dropdownId">
-                            <a class="dropdown-item" href="#">Action 1</a>
-                            <a class="dropdown-item" href="#">Action 2</a>
-                        </div>
                     </li>
                 </ul>
 
@@ -100,7 +117,7 @@
 
     </header>
     <!-- Encabezado -->
-
+    
     <!-- Contenido -->
     <main class="section-wrapper p-0">
         <section class="services">
@@ -125,7 +142,7 @@
 
 
                     <!-- Necesidades -->
-                    <h2 class="h2-responsive text-theme text-center content-h2 pb-5">Necesidades</h2>
+                    <h2 id="nuestros-servicios" class="h2-responsive text-theme text-center content-h2 pb-5">Nuestros Servicios</h2>
                     <p class="text-justify">En la actualidad las empresas requieren enfocarse en dar a
                         conocer los productos o servicios que estas ofrecen por medio de un medio digital
                         encabezado en primer lugar por una página web la cual permitirá a lograr dicho objetivo.
@@ -184,7 +201,7 @@
                 </div>
 
                 <!-- ¿Que ofrecemos? -->
-                <div class="bg-light-blue-1">
+                <div id="que-ofrecemos"class="bg-light-blue-1">
                     <div class="content-wrapper">
                         <h2 class="h2-responsive text-theme text-center content-h2 pb-5">¿Qué ofrecemos? </h2>
 
@@ -229,7 +246,7 @@
                 <!-- ./¿Que ofrecemos? -->
 
                 <!-- ¿Como lo logramos? -->
-                <div class="bg-light-blue-2">
+                <div id="como-logramos" class="bg-light-blue-2">
                     <div class="content-wrapper">
                         <h2 class="h2-responsive text-theme text-center content-h2 pb-5">¿Como lo logramos? </h2>
 
@@ -423,6 +440,23 @@
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <!-- MDB core JavaScript -->
     <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <!-- preloader -->
+    <script type="text/javascript" src="js/loader.js"></script>
+    <!-- Date & Time -->
+    <script type="text/javascript" src="js/datetime.js"></script>
+    <!-- SmoothScroll -->
+    <script src="js/smooth-scroll.js"></script>
+    <script>
+        var scroll = new SmoothScroll('a[href*="#"]');
+    </script>
+    <!-- Navbar -->
+    <script src="js/navbar.js"></script>
+
 
 </body>
 

@@ -6,8 +6,10 @@ $(document).ready(function() {
     })
 });
 $('.navbar-toggler').click(function () { 
-    $(".navbar").addClass("solid");
+    $('.navbar-collapse').addClass('solid');
+
 });
-$('.nav-link').click(function () { 
-    $(".navbar-toggler").click();
+$('.dropdown-item').click(function () { 
+    $('.navbar-toggler').click();
+    $('.navbar').css('height', '72px');
 });

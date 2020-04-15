@@ -34,6 +34,10 @@ h5 {
      object-fit: cover;
 }
 
+.text-theme {
+  color: #0d47a0;
+}
+
 /* Colores */
 .color-theme {
   background-color: #0d47a0;
@@ -69,7 +73,7 @@ h5 {
 
 /* Section */
 .section-wrapper {
-  margin-top: 151.25px;
+  margin-top: 194px;
 }
 
 .section-wrapper .view {
@@ -198,6 +202,19 @@ header {
   height: 20px;
 }
 
+@media screen and (max-width: 576px) {
+  .dropdown-menu {
+    background-color: #0d47a0;
+  }
+  .dropdown-item {
+    color: #ffffff;
+  }
+}
+
+.solid {
+  background-color: #0d47a0;
+}
+
 /* Button */
 .btn {
   border-radius: 10px;
@@ -242,11 +259,6 @@ header {
 @media screen and (max-width: 576px) {
   .index .view, .index img {
     height: 50vh;
-  }
-  .btn-contacto {
-    width: 53%;
-    margin: 20px auto 0;
-    display: block !important;
   }
 }
 

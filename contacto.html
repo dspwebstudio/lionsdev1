@@ -33,11 +33,31 @@
 <body>
     <!-- Encabezado -->
     <header class="fixed-top">
+        <!-- Date & Time section -->
+        <div class="info col-12 pt-3 bg-date-time d-flex">
+            <div class="mr-auto txt-banner">
+                <i class="far fa-calendar-alt mr-1"></i><span id="date"></span>
+                <i class="far fa-clock ml-2 mr-1"></i><span id="time"></span>
+            </div>
+            <div class="ml-auto d-flex">
+                <img class="img-fluid flag" src="img/imagenes/mexico-flag.png" alt="mexico flag" />
+                <a href="tel:+524433470722" class="txt-banner">
+                    <i class="fas fa-phone ml-2 d-flex">
+                        <p class="ml-1 txt-banner">4433470722</p>
+                    </i>
+                </a>
+            </div>
+        </div>
+        <!-- ./Date & Time section -->
+
+        <!-- Logo -->
         <div class="logo bg-logo py-3 text-center">
             <a class="navbar-brand" href="index.html">
                 <img src="img/logo/lionsdev-blue.png" alt="logo" width="140">
             </a>
         </div>
+        <!-- ./Logo -->
+
         <!-- Menú -->
         <nav class="navbar navbar-expand-md navbar-dark color-theme p-0">
             <button class="navbar-toggler d-lg-none p-3" type="button" data-toggle="collapse"
@@ -48,7 +68,7 @@
             <div class="collapse navbar-collapse" id="collapsibleNavId">
                 <ul class="navbar-nav m-auto d-flex align-items-center justify-content-center">
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html">Inicio<span class="sr-only">(current)</span></a>
+                        <a class="nav-link active" href="index.html">Inicio<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="quienes-somos.html">Quienes Somos</a>
@@ -60,7 +80,7 @@
                         <a class="nav-link" href="blog.html">Blog</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="contacto.html">Contacto</a>
+                        <a class="nav-link" href="contacto.html">Contacto</a>
                     </li>
                     <li class="nav-item dropdown d-none">
                         <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown"
@@ -74,45 +94,45 @@
 
                 <!-- Social Icons -->
                 <div class="social-icons d-flex py-md-0 py-xs-4 px-3 align-items-center justify-content-center">
-                    
+
                     <!-- LinkedIn -->
                     <a href="#" class="text-white">
                         <i class="fab fa-linkedin fa-2x px-3"></i>
                     </a>
                     <!-- ./LinkedIn -->
-        
+
                     <!-- Skype -->
                     <a href="#" class="text-white">
                         <i class="fab fa-skype fa-2x px-3"></i>
                     </a>
                     <!-- ./Skype -->
-        
+
                     <!-- Whatsapp -->
                     <a href="#" class="text-white">
                         <i class="fab fa-whatsapp fa-2x px-3"></i>
                     </a>
                     <!-- ./Whatsapp -->
-        
+
                 </div>
                 <!-- ./Social Icons -->
-                
+
             </div>
         </nav>
         <!-- ./Menú -->
-
     </header>
     <!-- Encabezado -->
 
     <!-- Contenido -->
     <main class="section-wrapper">
         <section class="contact">
-            
+
             <!-- Section Title -->
             <div class="view">
                 <div class="section-img d-block w-100">
                     <img src="img/imagenes/contacto.jpeg" class="img-fluid w-100" alt="personas saludando">
                 </div>
-                <div class="mask rgba-stylish-strong section-title d-flex align-items-center justify-content-center">
+                <div
+                    class="mask rgba-stylish-strong section-title d-flex align-items-center justify-content-center">
                     <div class="white-text text-justify">
                         <h1 class="h1-responsive text-center">Contacto</h1>
                         <hr class="hr-section-title">
@@ -130,11 +150,13 @@
                     <!--Section: Contact v.2-->
                     <div class="max-width m-auto text-theme">
                         <!--Section description-->
-                        <p class="pregunta-contacto w-responsive mx-auto">¿Tiene usted alguna pregunta? Por favor no
+                        <p class="pregunta-contacto w-responsive mx-auto">¿Tiene usted alguna pregunta? Por
+                            favor no
                             dude en
                             contactar con nosotros
                             directamente.</p>
-                        <p class="pregunta-contacto w-responsive mx-auto mb-5">Nuestro equipo volverá a usted dentro de cuestión de horas para ayudarlo.</p>
+                        <p class="pregunta-contacto w-responsive mx-auto mb-5">Nuestro equipo volverá a usted
+                            dentro de cuestión de horas para ayudarlo.</p>
 
                     </div>
                     <!--Section: Contact v.2-->
@@ -208,7 +230,8 @@
                     <!--Grid column-->
 
                     <!-- Contact Information-->
-                    <div class="contact-information col-md-5 text-center flex-center p-5 color-theme text-white">
+                    <div
+                        class="contact-information col-md-5 text-center flex-center p-5 color-theme text-white">
                         <ul class="list-unstyled mb-0">
                             <li><i class="fas fa-map-marker-alt fa-2x"></i>
                                 <p class="mt-2">San Francisco, CA 94126, USA</p>
@@ -228,10 +251,12 @@
                 <!-- ./Tabla de Formulario -->
                 <!-- ./Formulario -->
                 <!--Google map-->
-                <div id="map-container-google-1" class="map-container my-5 max-width mx-auto" style="height: 40vh;">
+                <div id="map-container-google-1" class="map-container my-5 max-width mx-auto"
+                    style="height: 40vh;">
                     <iframe
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12610.52510214519!2d-122.4059758598319!3d37.798680131327636!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085806800ecb699%3A0xf91d657fb37e68fd!2sSan%20Francisco%2C%20California%2094126%2C%20EE.%20UU.!5e0!3m2!1ses-419!2smx!4v1585591882087!5m2!1ses-419!2smx"
-                        frameborder="0" allowfullscreen style="border:0; padding: 0; height: 40vh; width: 100%;">
+                        frameborder="0" allowfullscreen
+                        style="border:0; padding: 0; height: 40vh; width: 100%;">
                     </iframe>
                 </div>
                 <!-- ./Google map -->
@@ -241,7 +266,6 @@
         </section>
     </main>
     <!-- Contenido -->
-
 
     <!-- Footer -->
     <footer class="page-footer font-small pt-4 color-theme">
@@ -336,7 +360,6 @@
     </footer>
     <!-- Footer -->
 
-
     <!-- jQuery -->
     <script type="text/javascript" src="js/jquery.min.js"></script>
     <!-- Bootstrap tooltips -->
@@ -347,7 +370,6 @@
     <script type="text/javascript" src="js/mdb.min.js"></script>
     <!-- AOS JS -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <!-- Your custom scripts (optional) -->
     <script>
         AOS.init();
     </script>

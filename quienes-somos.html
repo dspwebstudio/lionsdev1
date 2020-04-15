@@ -33,12 +33,32 @@
 <body>
     <!-- Encabezado -->
     <header class="fixed-top">
+        <!-- Date & Time section -->
+        <div class="info col-12 pt-3 bg-date-time d-flex">
+            <div class="mr-auto txt-banner">
+                <i class="far fa-calendar-alt mr-1"></i><span id="date"></span>
+                <i class="far fa-clock ml-2 mr-1"></i><span id="time"></span>
+            </div>
+            <div class="ml-auto d-flex">
+                <img class="img-fluid flag" src="img/imagenes/mexico-flag.png" alt="mexico flag" />
+                <a href="tel:+524433470722" class="txt-banner">
+                    <i class="fas fa-phone ml-2 d-flex">
+                        <p class="ml-1 txt-banner">4433470722</p>
+                    </i>
+                </a>
+            </div>
+        </div>
+        <!-- ./Date & Time section -->
+
+        <!-- Logo -->
         <div class="logo bg-logo py-3 text-center">
             <a class="navbar-brand" href="index.html">
                 <img src="img/logo/lionsdev-blue.png" alt="logo" width="140">
             </a>
         </div>
-        <!-- Menu -->
+        <!-- ./Logo -->
+
+        <!-- Menú -->
         <nav class="navbar navbar-expand-md navbar-dark color-theme p-0">
             <button class="navbar-toggler d-lg-none p-3" type="button" data-toggle="collapse"
                 data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
@@ -46,13 +66,12 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="collapsibleNavId">
-                <!-- Menú -->
                 <ul class="navbar-nav m-auto d-flex align-items-center justify-content-center">
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html">Inicio<span class="sr-only">(current)</span></a>
+                        <a class="nav-link active" href="index.html">Inicio<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="quienes-somos.html">Quienes Somos</a>
+                        <a class="nav-link" href="quienes-somos.html">Quienes Somos</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="servicios.html">Servicios</a>
@@ -72,7 +91,6 @@
                         </div>
                     </li>
                 </ul>
-                <!-- Menú -->
 
                 <!-- Social Icons -->
                 <div class="social-icons d-flex py-md-0 py-xs-4 px-3 align-items-center justify-content-center">
@@ -100,7 +118,7 @@
 
             </div>
         </nav>
-        <!-- ./Menu -->
+        <!-- ./Menú -->
 
     </header>
     <!-- Encabezado -->
@@ -380,10 +398,15 @@
     <script type="text/javascript" src="js/mdb.min.js"></script>
     <!-- AOS JS -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <!-- Your custom scripts (optional) -->
+
     <script>
         AOS.init();
     </script>
+    <!-- preloader -->
+    <script type="text/javascript" src="js/loader.js"></script>
+    <!-- Date & Time -->
+    <script type="text/javascript" src="js/datetime.js"></script>
+
 
 </body>
 
